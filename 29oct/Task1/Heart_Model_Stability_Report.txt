@@ -1,0 +1,20 @@
+HEART DISEASE MODEL STABILITY REPORT
+
+Random vs Stratified Splits:
+                Method  Mean Accuracy  Std Accuracy
+    Random Split 80:20         0.8459        0.0340
+Stratified Split 80:20         0.8230        0.0424
+
+Different Test Ratios:
+ Test Size  Mean Accuracy  Std Accuracy  Min Accuracy  Max Accuracy
+       0.1         0.8065        0.0603        0.7419        0.8710
+       0.2         0.8230        0.0424        0.7705        0.8689
+       0.3         0.8264        0.0211        0.8022        0.8571
+
+Target Distribution:
+target
+1    0.543
+0    0.457
+
+Lower standard deviation indicates less accuracy variation across tested splits.
+Results reflect these splits and this model; they do not guarantee future performance.

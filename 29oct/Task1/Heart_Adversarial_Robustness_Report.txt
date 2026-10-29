@@ -1,0 +1,17 @@
+Heart Disease Model Adversarial Robustness Report
+
+         Test Type  Accuracy  Precision  Recall  F1 Score  Accuracy Drop
+          Original    0.7869      0.750  0.9091    0.8219         0.0000
+Small Perturbation    0.7869      0.750  0.9091    0.8219         0.0000
+        Worst Case    0.8197      0.775  0.9394    0.8493        -0.0328
+
+Small Perturbation Prediction Flip Rate: 0.0
+Worst-Case Prediction Flip Rate: 0.0656
+
+Most Frequently Selected Features:
+ Feature  Selected_Count
+ oldpeak              18
+ thalach              17
+     age              16
+    chol               6
+trestbps               4
